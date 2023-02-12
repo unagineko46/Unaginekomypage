@@ -1,0 +1,332 @@
+*{
+  font-family: 'Kaisei Opti', serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+h1{
+  font-size: 64px;
+  text-align: center;
+  padding-top: 320px;
+}
+
+p{
+  font-size: 14px;
+}
+
+header{
+  height: 80px;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 180px;
+  position: fixed;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header a{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+header p{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header ul{
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header a:hover{
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.382);
+  color: #fff;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.firstView h1{
+  font-size: 100px;
+  text-align: center;
+  padding-top: 250px;
+  letter-spacing: 0.2em;
+}
+
+.firstView p{
+  font-size: 30px;
+  text-align: center;
+}
+
+.firstView{
+  background-image: url(images/top-haikei.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  height: 800px;
+  color: #ffffff;
+}
+
+.about{
+  padding: 50px 180px 100px 180px;
+  background:#fffdf3;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile img{
+  height: 300px;
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.profile{
+  display: flex;
+}
+
+.profile .profile-text{
+  width: 500px;
+  float: left;
+  align-self:flex-end;
+}
+
+.profile h2{
+  font-size: 64px;
+  letter-spacing: 0.1em;
+}
+
+.profile h3{
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.profile p{
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.school-clubs{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.school-club{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.school-club img{
+  width: 300px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.school-club h3{
+  margin-top: 14px;
+}
+
+.school-club p{
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.school-club a{
+  display: inline-block;
+  border-bottom: 1px solid;
+  margin-top: 32px;
+}
+
+.youtube a{
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 5px;
+  color: blue;
+}
+
+.youtube a:hover{
+  color: azure;
+  background: #000;
+}
+
+.favorite h2{
+  font-size: 64px;
+  color: #000;
+  letter-spacing: 0.1em;
+  border-bottom: 6px double #ffffff;
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.favorite{
+  text-align: center;
+  padding: 180px 180px 240px 180px;
+  background-image: url(images/haikei.jpg);
+  background-size: cover;
+}
+
+.favorite-contents{
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorite-content h3{
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.favorite-content{
+  width: 320px;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+}
+
+.favorite-content img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.favorite-content p{
+  font-size: 16px;
+  text-align: left;
+  margin-top: 32px;
+}
+
+.works{
+  padding: 50px 180px 100px 180px;
+  text-align: center;
+  background-color: #fffdf3;
+}
+.works h2{
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  border-bottom: 3px solid #f90;
+  display: inline-block;
+}
+
+.works-content {
+  background-color: #fff;
+  display: flex;
+  padding: 40px;
+  margin-top: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.works-content img{
+  width: 320px;
+  height: 180px;
+}
+
+.works-content h3{
+  font-size: 40px;
+}
+
+.works-content span{
+  font-size: 16px;
+  margin-left: 16px;
+}
+
+.works-content p{
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.works-content .works-text {
+  margin-left:80px;
+}
+
+
+.contact{
+  padding: 100px 370px;
+  text-align: center;
+  background-image: url(images/contact-haikei.jpg);
+  background-size: cover;
+}
+
+.contact h2{
+  font-size: 64px;
+  letter-spacing: 0.1em;
+  border-bottom: 3px solid #333;
+  display: inline-block;
+}
+
+.contact p{
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 130%;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.contact a{
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #fff;
+  width: 200px;
+  line-height: 80px;
+  display: inline-block;
+  border-style: dotted;
+  border-radius: 16px;
+}
+
+.contact .sns{
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+}
+
+.contact .sns-twitter:hover{
+  font-size: 30px;
+ background-color: #00acee;
+ transition: 0.3s;
+}
+
+.contact .sns-facebook:hover{
+  background-color: #3b5998;
+  font-size: 30px;
+  transition: 0.3s;
+}
+
+.contact .sns-website:hover{
+  font-size: 30px;
+  background-color: #CF2E92;
+  transition: 0.3s;
+}
+
+footer{
+  height: 80px;
+  background-color: #edece7;
+  line-height: 80px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
